@@ -14,6 +14,7 @@ gem 'pg'
 
 group :development, :test do
   gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'database_cleaner'
   gem 'fabrication'
   gem 'rspec-rails'
 end
