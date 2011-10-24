@@ -67,7 +67,7 @@ Or invoked with individual specs with:
 	% rspec spec/models/publish_spec.rb
 	% ruby -Ispec spec/models/publish_spec.rb
 
-And a **Fast Spec** suite that can be invoked as a while with:
+And a **Fast Spec** suite that can be invoked as a whole with:
 
 	% rake fast
 
@@ -75,7 +75,7 @@ Or invoked with individual specs with:
 
 	% rspec -Ifast_specs fast_specs/models/publish_spec.rb
 
-In order to use the **Fast Spec** suite, we put our *fast* specs under `fast_specs` much like we do with normal `RSpec` specs. For example, the spec for the `Publish` model would be located at `fast_specs/modesl/publish_spec.rb`.
+In order to use the **Fast Spec** suite, we put our *fast* specs under `fast_specs` much like we do with normal `RSpec` specs. For example, the spec for the `Publish` model would be located at `fast_specs/models/publish_spec.rb`.
 
 At the top of our simple spec, with no changes to the implementation or the contents of the `describe` block, we require the `fast_spec_helper`, and the `Publish` model:
 
