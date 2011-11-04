@@ -6,10 +6,6 @@
 #
 require 'rspec'
 
-RSpec.configure do |config|
-  config.mock_with :rspec
-end
-
 # Load required files from the app
 #
 #   app_require 'app/model/profile'
